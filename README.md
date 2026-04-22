@@ -23,7 +23,8 @@ Approach 2 - Custom ETL pipeline (CSV to SQL):
 *sqlite_python_business_pipeline*
 - Download database from kaggle and establish a connection via `sqlite3` to extract tables directly into dataframe.
 - SQL Integration: Execute analytical SQL queries by passing multi-line strings and the database connection to `pd.read_sql_query`
-- Data Transformation: Convert SQL result sets into dataframe to perform ETL and further business analysis.
+- Data Transformation: Convert SQL result sets into dataframe to perform ETL and further business analysis.  
+  <u>Credits & References</u>: Data visualization and analysis logic inspired by the notebook [SQL Challenge: E-commerce data analysis](https://www.kaggle.com/code/terencicp/sql-challenge-e-commerce-data-analysis)
 
 ### Initial Setup
 1. Open terminal (``Ctrl + ` `` for VS Code) and create a virtual envionment (venv). Here we named venv as "venv-olist-sqlitedb"
