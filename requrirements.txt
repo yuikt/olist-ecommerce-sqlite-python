@@ -1,0 +1,13 @@
+os
+numpy<2
+pandas
+seaborn
+matplotlib
+ipykernel
+kagglehub
+squarify
+wordcloud
+folium
+networkx
+sqlite3
+scikit-learn
